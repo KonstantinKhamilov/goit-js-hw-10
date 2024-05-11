@@ -1,0 +1,50 @@
+body {
+  margin: 25px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  height: 450px;
+  background-image: url('../img/z_nastupauschim_ng_4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 490px;
+  background-position: 0px -20px;
+  border: solid 8px;
+  border-radius: 20px;
+  border-color: rgb(255, 48, 52);
+}
+
+.box > h1 {
+  color: rgb(255, 0, 0);
+  font-family: cursive;
+  padding-top: 260px;
+}
+
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  /*padding-top: 260px;*/
+}
+
+.timer {
+  text-align: center;
+  background-color: rgb(46, 103, 234, 0.75);
+  width: 100px;
+  height: 70px;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5em;
+}
+
+.timer > p {
+  color: white;
+  background-color: rgb(102, 2, 196);
+  font-size: 1.5em;
+}
