@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";const r=document.getElementById("day"),l=document.getElementById("hrs"),s=document.getElementById("min"),d=document.getElementById("sec"),m=new Date().getFullYear(),i=new Date(`1 Jan ${m+1} 00:00:00`);function u(){const c=Date.now(),e=i-c;let t=Math.floor(e/1e3/60/60/24),n=Math.floor(e/1e3/60/60%24),o=Math.floor(e/1e3/60%60),a=Math.floor(e/1e3%60);r.innerHTML=t<10?"0"+t:t,l.innerHTML=n<10?"0"+n:n,s.innerHTML=o<10?"0"+o:o,d.innerHTML=a<10?"0"+a:a}setInterval(u,1e3);
+//# sourceMappingURL=commonHelpers.js.map
