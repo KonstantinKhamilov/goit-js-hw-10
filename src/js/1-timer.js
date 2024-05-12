@@ -89,4 +89,7 @@ document.getElementById('startButton').addEventListener('click', function () {
     countdownDate(userSelectedDate, userDay, userHrs, userMin, userSec),
     1000
   );
+  // Делаем поле ввода и кнопку неактивными во время работы таймера
+  document.getElementById('datetime-picker').disabled = true;
+  this.disabled = true;
 });

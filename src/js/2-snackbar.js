@@ -22,7 +22,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         title: 'Success',
         message: message,
         position: 'topCenter',
-        timeout: delay,
+        timeout: 1000, // Установленное значение timeout
       });
     })
     .catch(message => {
@@ -30,7 +30,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         title: 'Error',
         message: message,
         position: 'topCenter',
-        timeout: delay,
+        timeout: 1000, // Установленное значение timeout
       });
     });
 });
